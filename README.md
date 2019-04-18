@@ -15,7 +15,7 @@
 
 # Preliminaries
 
-The MapReduce part of the project is done based on 
+The MapReduce job is based on Maven architype with Java 1.8.0_171 via IntelliJ IDEA 2018.3.4 Community Edition. The operating system is Ubuntu 18.04 LTS (Bionic Beaver). 
 
 # Sentiment Analysis with MapReduce 
 
