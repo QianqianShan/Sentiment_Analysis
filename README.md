@@ -5,6 +5,7 @@
 
 1. [Preliminaries](#preliminaries)
 
+1. [Sentiment Analysis with MapReduce](#sentiment-analysis-with-mapreduce)
 
 1. [References](#references)
 
@@ -16,6 +17,9 @@
 
 The MapReduce part of the project is done based on 
 
+# Sentiment Analysis with MapReduce 
+
+Sentiment analysis jobs are done with MapReduce by extending the `Mapper` and `Reducer` classes imported from `org.apache.hadoop.mapreduce ` as two classes, `SentimentSplit` and `SentimentCollection` for the mapping and reducing of the analysis. See the _SentimentAnalysis.java_ for more details.
 
 # Refereces 
 
