@@ -19,7 +19,12 @@ The MapReduce part of the project is done based on
 
 # Sentiment Analysis with MapReduce 
 
-Sentiment analysis jobs are done with MapReduce by extending the `Mapper` and `Reducer` classes imported from `org.apache.hadoop.mapreduce ` as two classes, `SentimentSplit` and `SentimentCollection` for the mapping and reducing of the analysis. See the _SentimentAnalysis.java_ for more details.
+Sentiment analysis jobs are done with MapReduce by extending the `Mapper` and `Reducer` classes imported from `org.apache.hadoop.mapreduce ` as two classes, `SentimentSplit` and `SentimentCollection` for the mapping and reducing of the analysis. Two `.java` files in _SentimentAnalysis/src/java_ are used: 
+
+* `SentimentAnalysis.java` for the MapReduce job.
+
+* `JSONConverter.java` for converting the output file to .json file for visualization. 
+
 
 # Refereces 
 
