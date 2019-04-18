@@ -39,7 +39,7 @@ public class SentimentAnalysis {
 
         @Override
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-
+            /**/
             String fileName = ((FileSplit) context.getInputSplit()).getPath().getName();
             String line = value.toString().trim();
             String[] words = line.split("\\s+");
